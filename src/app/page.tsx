@@ -250,7 +250,8 @@ export default async function Home() {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           Hallo, ich bin Leon, ein Softwareentwickler und Datenanalyst aus Köln, ursprünglich aus Malaysia. 
           Full-Stack-Entwicklung interessiert mich sehr, aber Frontend ist definitiv nicht meine Stärke.
-          Mein Schwerpunkt liegt auf Entwicklung von robusten und sicheren Backend-Systemen, und bin stets auf der Suche nach neuen Herausforderungen.          </p>
+          Mein Schwerpunkt liegt auf Entwicklung von robusten und sicheren Backend-Systemen, und bin stets auf der Suche nach neuen Herausforderungen.  
+          Und danke, dass Du Dir die Zeit genommen hast, vorbeizuschauen! </p>
           <div className="mt-6 flex gap-6">
    
             <SocialLink
