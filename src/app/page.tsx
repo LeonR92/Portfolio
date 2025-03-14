@@ -90,6 +90,16 @@ function Article({ article }: { article: ArticleWithSlug }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
+      <Card.Cta>
+          <a
+            href={article.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full h-full text-center"
+          >
+            View on GitHub
+          </a>
+        </Card.Cta>
     </Card>
   )
 }

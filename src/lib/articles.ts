@@ -5,10 +5,12 @@ interface Article {
   description: string
   author: string
   date: string
+  githubUrl: string;
 }
 
 export interface ArticleWithSlug extends Article {
-  slug: string
+  slug: string;
+
 }
 
 async function importArticle(
