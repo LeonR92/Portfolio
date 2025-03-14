@@ -122,7 +122,7 @@ function SocialLink({
 interface Role {
   company: string
   title: string
-  logo: ImageProps['src']
+
   start: string | { label: string; dateTime: string }
   end: string | { label: string; dateTime: string }
 }
@@ -138,9 +138,7 @@ function Role({ role }: { role: Role }) {
 
   return (
     <li className="flex gap-4">
-      <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full ring-1 shadow-md shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-        <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
-      </div>
+
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
         <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
@@ -167,35 +165,32 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'BLD Rechtanwälte Partnerschaftsgesellschaft',
+      title: 'Software Entwickler',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Euro Pool System International',
+      title: 'Business Analyst',
+      start: '2021',
+      end: '2023',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'AIC Call Center',
+      title: 'Call Center Agent',
+      start: '2020',
+      end: '2021',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Samsung Malaysia',
+      title: 'Data Analyst',
+      start: '2015',
+      end: '2020',
     },
   ]
 
@@ -203,7 +198,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Lebenslauf</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
