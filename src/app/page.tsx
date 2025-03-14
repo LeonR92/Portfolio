@@ -172,7 +172,7 @@ function Resume() {
     },
     {
       company: 'Euro Pool System International',
-      title: 'Business Analyst',
+      title: 'Data Analyst',
       start: '2021',
       end: '2023',
     },
