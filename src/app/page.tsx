@@ -93,7 +93,7 @@ function Article({ article }: { article: ArticleWithSlug }) {
             rel="noopener noreferrer"
             className="block w-full h-full text-center"
           >
-            View on GitHub
+            Mehr erfahren
           </a>
         </Card.Cta>
     </Card>
