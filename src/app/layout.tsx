@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       'Leon Richard - Software developer, data analyst, and cyber security enthusiast',
   },
   description:
-    'I’m Leon, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'Leon Richard - Software-Entwickler, Datenanalyst und Cybersicherheit-Enthusiast',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

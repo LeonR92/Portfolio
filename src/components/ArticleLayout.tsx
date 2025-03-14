@@ -57,7 +57,15 @@ export function ArticleLayout({
               >
                 <span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
                 <span className="ml-3">{formatDate(article.date)}</span>
-              </time>
+                <a
+            href={article.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"
+          >
+            View on GitHub
+          </a>
+                      </time>
             </header>
             <Prose className="mt-8" data-mdx-content>
               {children}
