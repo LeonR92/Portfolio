@@ -48,11 +48,12 @@ export default function Uses() {
       <div className="space-y-20">
         <ToolsSection title="Kernkompetenzen">
           <Tool title="Python-Entwicklung">
-            Spezialisierung auf Backend-Entwicklung mit Flask. Erfahrung mit FastAPI und Django. SQLAlchemy für ORM-Implementierungen und Datenbankmigrationen.
+          Spezialisierung auf Flask-Backend-Entwicklung. Erfahrung mit FastAPI und Django. Anwendung von TDD, SOLID-Prinzipien und OOP-Architekturmustern wie Repository und Dependency Injection .
           </Tool>
           
           <Tool title="Datenbanken & Storage">
             Microsoft SQL Server und PostgreSQL für relationale Datenmodelle. MongoDB und Elasticsearch für dokumentenbasierte und vectorisierte Suchszenarien.
+            Erste Erfahrung mit skaliebarer Datenbank-Architekturen (HAProxy für Read/Write-Splitting, Replikation mit mehreren Read Replicas) und Caching.
           </Tool>
           
           <Tool title="DevOps & Infrastruktur">
