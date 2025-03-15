@@ -42,36 +42,45 @@ export const metadata = {
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Meine Tech-Stack und Zertifikate"
-      intro="Hier findest Du meinen Tech-Stack und meine Zertifikate. Keine endlose Liste, sondern das, womit ich arbeite und was mich weitergebracht hat."
+      title="Tech-Stack und Zertifikate"
+      intro="Kernkompetenzen und Qualifikationen. Für detaillierte Projektbeispiele und Code-Samples, besuche mein GitHub-Profil."
       >
       <div className="space-y-20">
-        <ToolsSection title="Backend">
-        <Tool title="Datenbanken">
-          Hauptsächlich Erfahrung mit Microsoft SQL Server und PostgreSQL. Basiswissen in MySQL, DuckDB und Elasticsearch.
-        </Tool>
-
-        <Tool title="Programmiersprachen">
-          Erfahrung mit Python (Flask, FastAPI). Golang – aktuell in der Lernphase. JavaScript für grundlegende DOM-Manipulation.
-        </Tool>
-
-        <Tool title="Frontend">
-          Grundkenntnisse in HTML, CSS, Tailwind CSS und Bootstrap 5.
-        </Tool>
-        <Tool title="DevOps">
-          Git(Gitlab) und Docker. 
-          GitHub Actions, Prometheus, Docker Compose und Terraform setze ich gelegentlich in Nebenprojekten ein.
-        </Tool>
-        </ToolsSection>
-        <ToolsSection title="Zertifikate">
-        <Tool title="CompTIA CySA+">
-          Grundlagen der Cybersecurity-Analyse, inkl. Threat Detection und Incident Response.
-        </Tool>
-          <Tool title="Microsoft Azure DP-203">
-              Zertifizierung in Data Engineering auf Microsoft Azure.
+        <ToolsSection title="Kernkompetenzen">
+          <Tool title="Python-Entwicklung">
+            Spezialisierung auf Backend-Entwicklung mit Flask. Erfahrung mit FastAPI und Django. SQLAlchemy für ORM-Implementierungen und Datenbankmigrationen.
           </Tool>
+          
+          <Tool title="Datenbanken & Storage">
+            Microsoft SQL Server und PostgreSQL für relationale Datenmodelle. MongoDB und Elasticsearch für dokumentenbasierte und vectorisierte Suchszenarien.
+          </Tool>
+          
+          <Tool title="DevOps & Infrastruktur">
+            Docker-Containerisierung und Orchestrierung. CI/CD mit GitLab/GitHub Actions. Infrastructure-as-Code mit Terraform. Monitoring-Setups mit Prometheus.
+          </Tool>
+        </ToolsSection>
+        
+        <ToolsSection title="Erweiterte Fähigkeiten">
+          <Tool title="Web-Technologien">
+            Frontend-Grundlagen mit HTML, CSS (Tailwind, Bootstrap) und JavaScript. Derzeit Golang in der Lernphase.
+          </Tool>
+          
+          <Tool title="Datenanalyse">
+            ETL-Prozesse und Datenverarbeitung mit Python (pandas, numpy). Erfahrung mit Azure-Datendiensten. Datenvisualisierung und Reporting (Streamlit, plotly dash).
+          </Tool>
+        </ToolsSection>
+        
+        <ToolsSection title="Zertifikate">
+          <Tool title="Microsoft Azure DP-203">
+            Data Engineering auf Microsoft Azure. Fähigkeiten in Datenbanksystemen, Datenverarbeitung und -analyse in der Cloud.
+          </Tool>
+          
+          <Tool title="CompTIA CySA+">
+            Cybersecurity-Analyse, Threat Detection und Incident Response. Sicherheitseinbindung in Entwicklungsprozesse.
+          </Tool>
+          
           <Tool title="IHK Data Analyst">
-            Weiterbildung im Thema Daten Analyse bei der IHK.
+            Fundierte Datenanalyse-Kompetenzen mit Fokus auf geschäftsorientierte Auswertungen.
           </Tool>
         </ToolsSection>
       </div>
