@@ -78,7 +78,7 @@ export default function About() {
             </p>
             <p>
               
-            Meine Leidenschaft liegt darin, Anwendungen zu entwickeln, die nicht nur funktionieren, sondern auch vor Angriffen geschützt sind. In einer Zeit, in der Datenlecks und Sicherheitsverletzungen alltäglich werden, sehe ich es als meine Aufgabe, robuste Lösungen zu schaffen, die von Grund auf sicher sind.
+            Meine Leidenschaft liegt darin, Anwendungen zu entwickeln, die nicht nur funktionieren, sondern auch vor Angriffen geschützt sind. In einer Zeit, in der Datenlecks und Cyber-Angriffe alltäglich werden, sehe ich es als meine Aufgabe, robuste Lösungen zu schaffen, die von Grund auf sicher sind.
 
             </p>
             <p>
