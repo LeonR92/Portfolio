@@ -1,14 +1,11 @@
+import clsx from 'clsx'
 import { type Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  XIcon,
+  GitHubIcon
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -74,20 +71,16 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             
             <p>
-              Ursprünglich aus Malaysia, lebe ich seit 2021 in Köln und habe mich vom Datenanalysten zum Softwareentwickler weiterentwickelt.
+            Mein Weg hat mich 2021 von Malaysia nach Köln und von der Datenanalyse zur Softwareentwicklung geführt – ein Wandel, angetrieben von der Faszination, nicht nur Daten zu interpretieren, sondern die digitalen Systeme zu bauen, die sie verarbeiten und schützen.
             </p>
             <p>
               
-            Meine Leidenschaft liegt darin, Anwendungen zu entwickeln, die nicht nur funktionieren, sondern auch vor Angriffen geschützt sind. In einer Zeit, in der Datenlecks und Cyber-Angriffe alltäglich werden, sehe ich es als meine Aufgabe, robuste Lösungen zu schaffen, die von Grund auf sicher sind.
+            Meine Leidenschaft ist die Entwicklung sicherer Anwendungen. In einer Zeit, in der Cyber-Bedrohungen allgegenwärtig sind, reicht reine Funktionalität nicht aus. Mein Ziel ist es, robuste und resiliente Lösungen zu schaffen, die von Grund auf sicher konzipiert sind. Mit Zertifizierungen in Azure Data Engineering und Cybersecurity schlage ich die Brücke zwischen diesen oft getrennten Welten, denn ich bin überzeugt: Daten sind nur so wertvoll wie die Systeme, die sie schützen.
+            </p>
+            <p>
+            Um diesem Anspruch gerecht zu werden, vertiefe ich mich kontinuierlich in moderne Technologien und DevOps-Praktiken. Ich glaube fest daran, dass die sichersten und innovativsten Lösungen im offenen Austausch und in der Zusammenarbeit entstehen.
+            </p>
 
-            </p>
-            <p>
-              
-            Mit meinen Zertifizierungen in Azure Data Engineering und Cybersecurity verbinde ich zwei oft getrennte Welten. Ich bin überzeugt: Daten sind nur so wertvoll wie die Systeme, die sie schützen. Diese Überzeugung leitet meine Arbeit und meinen ständigen Drang, Neues zu lernen.
-            </p>
-            <p>
-            In meiner Freizeit experimentiere ich gerne mit neuen Technologien und DevOps-Praktiken. Ich glaube, dass die besten Lösungen aus Zusammenarbeit und dem Austausch verschiedener Perspektiven entstehen
-            </p>
           </div>
         </div>
         <div className="lg:pl-20">

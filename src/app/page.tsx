@@ -1,13 +1,12 @@
-import Image, { type ImageProps } from 'next/image'
-import Link from 'next/link'
 import clsx from 'clsx'
+import Image from 'next/image'
+import Link from 'next/link'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
-
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -245,13 +244,14 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software Entwickler, Datenanalyst und Cybersicherheit-Enthusiast
+          Ich baue, automatisiere und sichere moderne Software.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Hallo, ich bin Leon, ein Softwareentwickler und Datenanalyst aus Köln, ursprünglich aus Malaysia. 
-          Full-Stack-Entwicklung interessiert mich sehr, aber Frontend ist definitiv nicht meine Stärke.
-          Mein Schwerpunkt liegt auf Entwicklung von robusten und sicheren Backend-Systemen, und bin stets auf der Suche nach neuen Herausforderungen.  
-          Und danke, dass Du Dir die Zeit genommen hast, vorbeizuschauen! </p>
+          Hallo, ich bin Leon, ein Softwareentwickler aus Köln mit einer Spezialisierung auf DevOps und Cybersecurity.
+
+Als Microsoft Certified DevOps Engineer (AZ-400) liegt mein Fokus auf der Automatisierung des gesamten Software-Lebenszyklus – von der Entwicklung bis zum Betrieb in der Cloud. Meine durch die CompTIA CySA+ validierte Expertise in der Cybersicherheit stellt sicher, dass diese Lösungen nicht nur performant, sondern von Grund auf sicher sind. Ich suche stets nach Herausforderungen, bei denen ich robuste und widerstandsfähige Systeme entwickeln kann.
+
+ </p>
           <div className="mt-6 flex gap-6">
    
             <SocialLink
@@ -259,11 +259,7 @@ export default async function Home() {
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
-            <SocialLink
-              href="leonjy92@gmail.com"
-              aria-label="Follow on LinkedIn"
-              icon={MailIcon}
-            />
+           
           </div>
         </div>
       </Container>
