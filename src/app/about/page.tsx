@@ -66,19 +66,19 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hallo, ich bin Leon. Software-Entwicklung trifft auf Cybersecurity.
+          Softwareentwicklung an der Schnittstelle von DevOps und Cybersecurity.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             
             <p>
-            Mein Weg hat mich 2021 von Malaysia nach Köln und von der Datenanalyse zur Softwareentwicklung geführt – ein Wandel, angetrieben von der Faszination, nicht nur Daten zu interpretieren, sondern die digitalen Systeme zu bauen, die sie verarbeiten und schützen.
+            Hallo, ich bin Leon. Mein Weg in die Tech-Branche führte mich 2021 von Malaysia nach Köln, wo ich mich als Softwareentwickler auf die Bereiche DevOps und Cybersecurity spezialisiert habe.
             </p>
             <p>
               
-            Meine Leidenschaft ist die Entwicklung sicherer Anwendungen. In einer Zeit, in der Cyber-Bedrohungen allgegenwärtig sind, reicht reine Funktionalität nicht aus. Mein Ziel ist es, robuste und resiliente Lösungen zu schaffen, die von Grund auf sicher konzipiert sind. Mit Zertifizierungen in Azure Data Engineering und Cybersecurity schlage ich die Brücke zwischen diesen oft getrennten Welten, denn ich bin überzeugt: Daten sind nur so wertvoll wie die Systeme, die sie schützen.
+            Meine Leidenschaft ist die Entwicklung von Software, die nicht nur funktioniert, sondern auch widerstandsfähig ist. Als Microsoft Certified DevOps Engineer (AZ-400) automatisiere ich den gesamten Lebenszyklus von Anwendungen in der Cloud. Gleichzeitig stellt meine Expertise als CompTIA CySA+ zertifizierter Analyst sicher, dass jede Lösung von Grund auf sicher konzipiert ist.
             </p>
             <p>
-            Um diesem Anspruch gerecht zu werden, vertiefe ich mich kontinuierlich in moderne Technologien und DevOps-Praktiken. Ich glaube fest daran, dass die sichersten und innovativsten Lösungen im offenen Austausch und in der Zusammenarbeit entstehen.
+            Ich bin davon überzeugt, dass die besten Systeme an der Schnittstelle von Entwicklung, Sicherheit und Betrieb entstehen. Daher vertiefe ich mich kontinuierlich in die neuesten Technologien und DevSecOps-Praktiken, immer auf der Suche nach der nächsten Herausforderung.
             </p>
 
           </div>
