@@ -36,52 +36,46 @@ function Tool({
 
 export const metadata = {
   title: 'Skills',
-  description: 'Meine Tech-Stack und Zertifikate',
+  description: 'Mein Tech-Stack und meine Zertifizierungen im Bereich DevSecOps.',
 }
 
 export default function Uses() {
   return (
     <SimpleLayout
-      title="Tech-Stack und Zertifikate"
-      intro="Kernkompetenzen und Qualifikationen. Für detaillierte Projektbeispiele und Code-Samples, besuche mein GitHub-Profil."
-      >
+      title="Technologien & Qualifikationen"
+      intro="Ein Überblick über die Technologien, die ich einsetze, um robuste, sichere und automatisierte Softwarelösungen zu entwickeln. Für einen tieferen Einblick in meine Arbeit, besuchen Sie mein GitHub-Profil."
+    >
       <div className="space-y-20">
         <ToolsSection title="Kernkompetenzen">
-          <Tool title="Python-Entwicklung">
-          Spezialisierung auf Flask-Backend-Entwicklung. Erfahrung mit FastAPI und Django. Anwendung von TDD, SOLID-Prinzipien und OOP-Architekturmustern wie Repository und Dependency Injection .
+          <Tool title="Backend-Entwicklung mit Python">
+            Spezialisiert auf Backend-Entwicklung mit Python (Flask, FastAPI). Mein Fokus liegt auf testgetriebener Entwicklung (TDD) und der Umsetzung sauberer Architekturen durch SOLID-Prinzipien und Design Patterns wie Repository und Dependency Injection.
           </Tool>
-          
-          <Tool title="Datenbanken & Storage">
-            Microsoft SQL Server und PostgreSQL für relationale Datenmodelle. MongoDB und Elasticsearch für dokumentenbasierte und vectorisierte Suchszenarien.
-            Erste Erfahrung mit skaliebarer Datenbank-Architekturen (HAProxy für Read/Write-Splitting, Replikation mit mehreren Read Replicas) und Caching.
+          <Tool title="Datenbanken & Architektur">
+            Kenntnisse in relationalen (PostgreSQL, MS SQL) und NoSQL-Datenbanken (MongoDB, Elasticsearch). Praktische Erfahrung in der Konzeption skalierbarer Datenbank-Architekturen, inklusive Caching, Replikation und Load Balancing.
           </Tool>
-          
-          <Tool title="DevOps & Infrastruktur">
-            Docker-Containerisierung und Orchestrierung. CI/CD mit GitLab/GitHub Actions. Infrastructure-as-Code mit Terraform. Monitoring-Setups mit Prometheus.
+           <Tool title="Weitere Technologien">
+            Vertraut mit Frontend-Grundlagen (HTML, CSS, JavaScript, Tailwind und React). Aktueller Fokus: Vertiefung meiner Kenntnisse in Go (Golang) für hochperformante Systementwicklung.
           </Tool>
         </ToolsSection>
-        
-        <ToolsSection title="Erweiterte Fähigkeiten">
-          <Tool title="Web-Technologien">
-            Frontend-Grundlagen mit HTML, CSS (Tailwind, Bootstrap) und JavaScript. Derzeit Golang in der Lernphase.
+
+        <ToolsSection title="DevOps & Cloud">
+          <Tool title="Infrastruktur als Code (IaC) & Containerisierung">
+            Erstellung und Verwaltung von Cloud-Infrastruktur mit Terraform und Azure Bicep. Umfassende Erfahrung in der Containerisierung von Anwendungen mit Docker.
           </Tool>
-          
-          <Tool title="Datenanalyse">
-            ETL-Prozesse und Datenverarbeitung mit Python (pandas, numpy). Erfahrung mit Azure-Datendiensten. Datenvisualisierung und Reporting (Streamlit, plotly dash).
+          <Tool title="CI/CD & Automatisierung">
+            Design und Implementierung von CI/CD-Pipelines mit Azure DevOps, GitLab und GitHub Actions zur Automatisierung von Build-, Test- und Deployment-Prozessen.
+          </Tool>
+          <Tool title="Monitoring & Observability">
+            Einrichtung von Monitoring- und Alerting-Systemen mit Werkzeugen wie Prometheus, um Systemgesundheit und Performance sicherzustellen.
           </Tool>
         </ToolsSection>
-        
-        <ToolsSection title="Zertifikate">
-          <Tool title="Microsoft Azure DP-203">
-            Data Engineering auf Microsoft Azure. Fähigkeiten in Datenbanksystemen, Datenverarbeitung und -analyse in der Cloud.
+
+        <ToolsSection title="Zertifizierungen">
+          <Tool title="Microsoft Certified: DevOps Engineer Expert (AZ-400)">
+            Beherrschung von DevOps-Strategien und deren Implementierung auf Azure. Umfasst CI/CD, Infrastructure as Code, Konfigurationsmanagement, Sicherheit und die Orchestrierung von Release-Prozessen.
           </Tool>
-          
           <Tool title="CompTIA CySA+">
-            Cybersecurity-Analyse, Threat Detection und Incident Response. Sicherheitseinbindung in Entwicklungsprozesse.
-          </Tool>
-          
-          <Tool title="IHK Data Analyst">
-            Fundierte Datenanalyse-Kompetenzen mit Fokus auf geschäftsorientierte Auswertungen.
+            Cybersecurity-Analyse, Threat Detection und Incident Response. Integration von Sicherheitspraktiken in den gesamten Entwicklungszyklus (DevSecOps).
           </Tool>
         </ToolsSection>
       </div>
