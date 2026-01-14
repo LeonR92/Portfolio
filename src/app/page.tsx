@@ -86,15 +86,15 @@ function Article({ article }: { article: ArticleWithSlug }) {
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
       <Card.Cta>
-          <a
-            href={article.githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block w-full h-full text-center"
-          >
-            Mehr erfahren
-          </a>
-        </Card.Cta>
+        <a
+          href={article.githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full h-full text-center"
+        >
+          Mehr erfahren
+        </a>
+      </Card.Cta>
     </Card>
   )
 }
@@ -171,7 +171,7 @@ function Resume() {
     },
     {
       company: 'Euro Pool System International',
-      title: 'Data Analyst',
+      title: 'Software Entwickler',
       start: '2021',
       end: '2023',
     },
@@ -200,8 +200,8 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="/LeonRichard.pdf" target="_blank"
-  rel="noopener noreferrer" variant="secondary" className="group mt-6 w-full">
+      <Button href="/LR_swe.pdf" target="_blank"
+        rel="noopener noreferrer" variant="secondary" className="group mt-6 w-full">
         Download CV
         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
@@ -244,22 +244,22 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Ich baue, automatisiere und sichere moderne Software.
+            Ich baue, automatisiere und sichere moderne Software.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Hallo, ich bin Leon, ein Softwareentwickler aus Köln mit einer Spezialisierung auf DevOps und Cybersecurity.
+            Hallo, ich bin Leon, ein Softwareentwickler aus Köln mit einer Spezialisierung auf DevOps und Cybersecurity.
 
-Als Microsoft Certified DevOps Engineer (AZ-400) liegt mein Fokus auf der Automatisierung des gesamten Software-Lebenszyklus – von der Entwicklung bis zum Betrieb in der Cloud. Meine durch die CompTIA CySA+ validierte Expertise in der Cybersicherheit stellt sicher, dass diese Lösungen nicht nur performant, sondern von Grund auf sicher sind. Ich suche stets nach Herausforderungen, bei denen ich robuste und widerstandsfähige Systeme entwickeln kann.
+            Als Microsoft Certified DevOps Engineer (AZ-400) liegt mein Fokus auf der Automatisierung des gesamten Software-Lebenszyklus – von der Entwicklung bis zum Betrieb in der Cloud. Meine durch die CompTIA CySA+ validierte Expertise in der Cybersicherheit stellt sicher, dass diese Lösungen nicht nur performant, sondern von Grund auf sicher sind. Ich suche stets nach Herausforderungen, bei denen ich robuste und widerstandsfähige Systeme entwickeln kann.
 
- </p>
+          </p>
           <div className="mt-6 flex gap-6">
-   
+
             <SocialLink
               href="https://github.com/LeonR92/"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
-           
+
           </div>
         </div>
       </Container>
