@@ -51,9 +51,12 @@ export default function Uses() {
             Spezialisiert auf Backend-Entwicklung mit Python (Flask, FastAPI). Mein Fokus liegt auf testgetriebener Entwicklung (TDD) und der Umsetzung sauberer Architekturen durch SOLID-Prinzipien und Design Patterns wie Repository und Dependency Injection.
           </Tool>
           <Tool title="Datenbanken & Architektur">
-            Kenntnisse in relationalen (PostgreSQL, MS SQL) und NoSQL-Datenbanken (MongoDB, Elasticsearch). Praktische Erfahrung in der Konzeption skalierbarer Datenbank-Architekturen, inklusive Caching, Replikation und Load Balancing.
+            Kenntnisse in relationalen (PostgreSQL, MS SQL, Elasticsearch). Praktische Erfahrung in der Konzeption skalierbarer Datenbank-Architekturen, inklusive Caching, Replikation und Load Balancing.
           </Tool>
-           <Tool title="Weitere Technologien">
+          <Tool title="Künstliche Intelligenz">
+            KI-Agentik mit PydanticAI & lokale LLM-Inferenz (vLLM, Ollama)
+          </Tool>
+          <Tool title="Weitere Technologien">
             Vertraut mit Frontend-Grundlagen (HTML, CSS, JavaScript, Tailwind und React). Aktueller Fokus: Vertiefung meiner Kenntnisse in Go (Golang) für hochperformante Systementwicklung.
           </Tool>
         </ToolsSection>
@@ -63,10 +66,7 @@ export default function Uses() {
             Erstellung und Verwaltung von Cloud-Infrastruktur mit Terraform und Azure Bicep. Umfassende Erfahrung in der Containerisierung von Anwendungen mit Docker.
           </Tool>
           <Tool title="CI/CD & Automatisierung">
-            Design und Implementierung von CI/CD-Pipelines mit Azure DevOps, GitLab und GitHub Actions zur Automatisierung von Build-, Test- und Deployment-Prozessen.
-          </Tool>
-          <Tool title="Monitoring & Observability">
-            Einrichtung von Monitoring- und Alerting-Systemen mit Werkzeugen wie Prometheus, um Systemgesundheit und Performance sicherzustellen.
+            Design und Implementierung von CI/CD-Pipelines mit Azure DevOps und GitHub Actions zur Automatisierung von Build-, Test- und Deployment-Prozessen.
           </Tool>
         </ToolsSection>
 
